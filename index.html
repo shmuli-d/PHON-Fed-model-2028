@@ -108,9 +108,9 @@ hr{border:none;border-top:1px solid var(--line);margin:30px 0}
 <canvas id="traj" height="220"></canvas>
 </div>
 <div>
-<p>In May 2025 One Nation won <b>6.4%</b> of the House primary vote. By June 2026 it had reached <b>~28% (aggregate)</b>, with individual polls at <b>31%</b> (Newspoll, 8 Jun) — <b>first on primaries, ahead of Labor</b>, with the Coalition crushed to ~18–21%.</p>
+<p>In May 2025 One Nation won <b>6.4%</b> of the House primary vote. By June 2026 it had reached <b>~29% (aggregate)</b>, with individual polls at <b>31%</b> (Newspoll, 1–4 Jun) — <b>first on primaries, ahead of Labor (~27%)</b>, with the Coalition crushed to <b>~19%</b>.</p>
 <p>Kevin Bonham notes the early surge "eerily paralleled" the Voice <i>No</i> campaign's acceleration, stalled Feb–Apr, then <b>re-accelerated after the March Budget</b> (rated among the worst-received ever) and ON's historic <b>Farrer by-election</b> win.</p>
-<p class="note">Aggregate line is indicative (Morgan/Newspoll/Redbridge/YouGov); the dot marks the 8 Jun Newspoll. The critical fact for everything below: <b>on two-party-preferred, Labor still leads</b> (Bonham: Labor 52.4 vs Coalition; <b>52.9 vs One Nation</b> head-to-head). Primary-vote leadership ≠ winning.</p>
+<p class="note">Lines are monthly means of every national poll on BludgerTrack 2028 (Poll Bludger), bucketed by fieldwork end-date; the dot marks the 1–4 Jun Newspoll (31%). One Nation passed the Coalition on primaries in late January 2026 and pulled ahead of Labor in June. The critical fact for everything below: <b>on two-party-preferred, Labor still leads</b> (Roy Morgan, Jun: Labor ~54 vs Coalition; Bonham's head-to-head modelling: <b>~53 Labor vs One Nation</b>). Primary-vote leadership ≠ winning.</p>
 </div>
 </div>
 </div>
@@ -122,7 +122,7 @@ hr{border:none;border-top:1px solid var(--line);margin:30px 0}
 <div>
 <p>One Nation now claims <b>60,000–70,000 paid members</b> — more than Labor (~55k) or the Liberals (~50k, incl. LNP) — after <b>40,000+ sign-ups since the 2025 election</b>, plus <b>100+ new branches</b> (targeting one per seat) and Gina Rinehart's public backing <small>(AFR, 5 Jun 2026)</small>.</p>
 <p>Why this matters as a leading indicator: branch density and dues-paying membership convert into <b>booth coverage, scrutineers, a candidate pipeline and a doorknocking base</b> — the ground-game capacity PHON lacked in past surges (1998, 2017). It is the clearest quantitative sign this operation is more durable and professional than its predecessors, and it underwrites the "realignment world."</p>
-<p class="note">Not directly comparable (shown for scale): the Greens ~15k members (2020, most recent published figure — dated); the teals are not a membership party (Climate 200 raised ~$6m in 2022 with roughly 1,000 volunteers per target seat). Per your steer, this indicator is <b>not</b> fed into the headline weightings — it is corroborating context only.</p>
+<p class="note">Not directly comparable (shown for scale): the Greens are still ~15k members (effectively flat since 2020 — confirmed, not just a dated figure); the teals are not a membership party (Climate 200 raised ~$6m in 2022 with roughly 1,000 volunteers per target seat). Per your steer, this indicator is <b>not</b> fed into the headline weightings — it is corroborating context only.</p>
 </div>
 </div>
 </div>
@@ -130,7 +130,7 @@ hr{border:none;border-top:1px solid var(--line);margin:30px 0}
 <h2>2 · The seat machine — try to make One Nation govern</h2>
 <p class="muted">Drag the One Nation primary vote up. The model takes the 150-division MRP baseline, applies the swing, runs full preferential (instant-runoff) counting in every seat with adjustable preference flows, and forms a government. Watch how far ON must climb past today's number before it can <i>govern</i> rather than merely lead on primaries.</p>
 <div class="panel" style="border-left:4px solid var(--accent);background:#1d1c16">
-<b style="color:var(--accent)">Read this before comparing to the ~16% headline.</b> This calculator is <b>conditional</b>: it answers "<i>if</i> One Nation actually polls this primary on election day, with these preference flows, what happens to the seats?" It does <b>not</b> include the chance the vote gets there and holds. The headline (~16%) is <b>unconditional</b> — it additionally weights how likely ON's primary is to reach/sustain each level across two years (many paths see it deflate) plus the small (~6%) Hanson illness/mortality risk. So high numbers here at 34%+ are real <i>given</i> that primary; the headline is lower because reaching 34% by 2028 is itself uncertain. At today's ~28% with normal preferences, the model returns a Labor government in ~99% of runs — a bare majority or (more often) a minority on the 76-seat line. It holds Fowler (Dai Le) and Mayo (Rebekha Sharkie) for the independents — Fowler one seat below the RedBridge MRP's nominal Labor 76 — so Labor governs with crossbench confidence rather than outright.</div>
+<b style="color:var(--accent)">Read this before comparing to the ~16% headline.</b> This calculator is <b>conditional</b>: it answers "<i>if</i> One Nation actually polls this primary on election day, with these preference flows, what happens to the seats?" It does <b>not</b> include the chance the vote gets there and holds. The headline (~16%) is <b>unconditional</b> — it additionally weights how likely ON's primary is to reach/sustain each level across two years (many paths see it deflate) plus the small (~6%) Hanson illness/mortality risk. So high numbers here at 34%+ are real <i>given</i> that primary; the headline is lower because reaching 34% by 2028 is itself uncertain. At today's ~28% with normal preferences, the model returns a Labor government in ~99% of runs — a bare majority (~77 seats). It holds Fowler (Dai Le) and Mayo (Rebekha Sharkie) as independents; with the SA-grounded preference flows Labor sits a seat or two above the RedBridge MRP's nominal 76.</div>
 
 <div class="grid2">
 <div class="panel">
@@ -140,9 +140,9 @@ hr{border:none;border-top:1px solid var(--line);margin:30px 0}
 <small id="onHint">Today: aggregate ~28%, Newspoll 31%. 2025 election: 6.4%.</small>
 </div>
 <div class="ctrl">
-<label>Where does ON's extra vote come from? <b><span id="vFrm">70</span>% Coalition</b></label>
-<input type="range" id="sFrm" min="40" max="90" value="70" step="1">
-<small>Higher = ON keeps eating the Coalition. Lower = ON must take Labor votes (much harder) to keep growing.</small>
+<label>Where does ON's extra vote come from? <b><span id="vFrm">64</span>% Coalition</b></label>
+<input type="range" id="sFrm" min="40" max="90" value="64" step="1">
+<small>Default 64% = the observed net flow: from the May 2025 election to the June 2026 BludgerTrack aggregate the Coalition's primary fell 12.9 pts and Labor's 7.3 pts, so the Coalition is ~64% of the two majors' combined loss. (Net share movement, not gross voter switching.) Higher = ON keeps eating the Coalition; lower = ON must take Labor votes (much harder) to keep growing.</small>
 </div>
 <div class="ctrl">
 <label>Coalition → One Nation preferences <b><span id="vC2O">70</span>%</b></label>
@@ -155,9 +155,9 @@ hr{border:none;border-top:1px solid var(--line);margin:30px 0}
 <small>Composition-based: each seat's Greens→Labor rate is set from its conservatism (≈70% in Maranoa-type seats, ≈97% inner-metro), so Greens leak more to ON in the conservative seats where ON actually competes (a seat-type effect — §2b). This slider shifts the whole curve. Default 91%; <b>SA-calibrated ≈ 82%</b>.</small>
 </div>
 <div class="ctrl">
-<label>Monte-Carlo seat noise (±, std dev) <b><span id="vNz">4.0</span></b></label>
-<input type="range" id="sNz" min="1" max="7" value="4" step="0.5">
-<small>Per-seat uncertainty for the 1,500-run probability simulation.</small>
+<label>Monte-Carlo noise (× MRP credible interval) <b><span id="vNz">1.0</span></b></label>
+<input type="range" id="sNz" min="0" max="2" value="1" step="0.1">
+<small>1.0 = the MRP's published per-party 95% MoEs (ON ±9.4, ALP ±6.6, …); per-seat shares renormalised to 100.</small>
 </div>
 <label style="display:flex;gap:8px;align-items:center;font-size:13px;color:var(--muted);margin-top:8px">
 <input type="checkbox" id="cInd" checked> Crossbench independents back Labor for confidence (off = neutral; they never install a One Nation government)
@@ -181,7 +181,7 @@ hr{border:none;border-top:1px solid var(--line);margin:30px 0}
 <p>Each point runs the full model at that ON primary. The dashed line is the <b>76-seat majority</b>; the band marks where <b>government changes hands</b>.</p>
 <table>
 <tr><th>ON primary</th><th class="n">ON seats</th><th class="n">ALP seats</th><th>Outcome</th></tr>
-<tr><td>28% (≈ now)</td><td class="n">~51</td><td class="n">~75</td><td>Labor minority (governs w/ crossbench)</td></tr>
+<tr><td>28% (≈ now)</td><td class="n">~51</td><td class="n">~77</td><td>Labor majority (bare)</td></tr>
 <tr><td>31% (Newspoll)</td><td class="n">~62</td><td class="n">~71</td><td>Labor minority</td></tr>
 <tr><td>~32%</td><td class="n">~66</td><td class="n">~67</td><td>Hung</td></tr>
 <tr><td><b>~34%</b></td><td class="n">~72</td><td class="n">~64</td><td><b>ON-led govt (cusp)</b></td></tr>
@@ -236,7 +236,7 @@ hr{border:none;border-top:1px solid var(--line);margin:30px 0}
 <table>
 <tr><th>Preference flow</th><th class="n">My model</th><th class="n">SA 2026 actual</th><th>Federal</th><th>Verdict</th></tr>
 <tr><td>Coalition → One Nation (vs Labor)</td><td class="n">70%</td><td class="n">66.6%</td><td>74.5% (’25) · ~65% (Farrer)</td><td>✓ well-calibrated</td></tr>
-<tr><td>One Nation → Coalition (vs Labor)</td><td class="n">~76%</td><td class="n">68.9%</td><td>—</td><td>slightly high (set to match MRP seats)</td></tr>
+<tr><td>One Nation → Coalition (vs Labor)</td><td class="n">~69%</td><td class="n">68.9%</td><td>—</td><td>✓ SA-grounded</td></tr>
 <tr><td>Greens → Labor, <b>in ALP-vs-ON seats</b></td><td class="n">~80%</td><td class="n"><b>80.4%</b></td><td>~90% (MRP anchor)</td><td>conservative seats → leakier</td></tr>
 <tr><td>Greens → Labor, <b>in ALP-vs-Lib seats</b></td><td class="n">~90%</td><td class="n"><b>84.5%</b></td><td>—</td><td>more progressive seats → firmer</td></tr>
 <tr><td>Independent → Labor (vs One Nation)</td><td class="n">~80%</td><td class="n">57.9%</td><td>—</td><td>context-specific (2 seats)</td></tr>
@@ -332,7 +332,7 @@ RedBridge Group / Accent Research, <i>A Fragmented Electorate</i> (MRP, May 2026
 <a href="https://www.afr.com/politics/federal/one-nation-membership-surges-past-major-parties-20260605-p604a7">AFR, "One Nation membership surges past major parties"</a> (5 Jun 2026) ·
 2025 federal &amp; Senate election results (ON 6.4% House; 4 Senate seats).
 <br><br>
-<b>Method.</b> Baseline = the 150-division MRP primary table. A uniform points-swing sets ON's national primary (sourced from Coalition/Labor by the dial); full instant-runoff counting runs per seat with transfer rates calibrated to observed 2025/2026 flows (Coalition→ON ≈70%, Labor→Coalition ≈60%) and a composition-based Greens firewall (Greens→Labor set per seat by seat conservatism, ≈70–97%, calibrated to the SA 2026 result). Government formation compares Labor (+Greens+independents) vs right (ON+Coalition+KAP) blocs against the 76 threshold. The headline blends three world-states via two-stage Monte Carlo (trajectory × Hanson illness/mortality ~6% × preference range × per-seat noise). <i>This is a model: a probabilistic snapshot conditioned on June 2026 information, two years from polling day.</i></p>
+<b>Method.</b> Baseline = the 150-division MRP primary table. A uniform points-swing sets ON's national primary (sourced from Coalition/Labor by the dial); full instant-runoff counting runs per seat with transfer rates grounded in observed flows (Coalition→ON ≈70%, ON→Coalition ≈69% per the SA 2026 result, Labor→Coalition ≈60% per 2025 federal) and a composition-based Greens firewall (Greens→Labor set per seat by seat conservatism, ≈70–97%, calibrated to the SA 2026 result). Government formation compares Labor (+Greens+independents) vs right (ON+Coalition+KAP) blocs against the 76 threshold. The headline blends three world-states via two-stage Monte Carlo (trajectory × Hanson illness/mortality ~6% × preference range × per-party noise scaled to the MRP's published credible intervals, seat shares renormalised to 100). <i>This is a model: a probabilistic snapshot conditioned on June 2026 information, two years from polling day.</i></p>
 
 </div>
 
@@ -377,11 +377,12 @@ function rr(p){return p/(1-p);}
 // ALP-vs-ON / ALP-vs-Lib gap is a seat-type artefact (conservative seats leak rightward more),
 // not a party preference. 'shift' slides the whole curve (the slider); same retention vs ON or Lib.
 function seatRet(row,shift){const c=(row[3]+row[4])/(row[2]+row[3]+row[4]+row[5]);return Math.max(0.60,Math.min(0.985,1.106-0.514*c+shift));}
+const MOE_SD={ALP:3.4,LNP:4.1,ON:4.8,GRN:2.1,IND:1.5,OTH:3.6};   // MRP published 95% MoE / 1.96, per party
 function weights(c2o){
   return {
     ALP:{GRN:8,IND:5,LNP:6,ON:4,OTH:1},
     LNP:{ON:7*rr(c2o)/rr(0.70),ALP:3,IND:4,GRN:0.3,OTH:2},
-    ON:{LNP:10,ALP:3.2,IND:2,GRN:0.3,OTH:2},
+    ON:{LNP:7,ALP:3.1,IND:2,GRN:0.3,OTH:2},   // ON->Coalition vs Labor = 7/(7+3.1) = 69% (SA 2026 actual 68.9%)
     GRN:{ALP:1,IND:3,LNP:0.7,ON:0.7,OTH:1},   // ALP weight is overwritten per-seat in tally() from seatRet
     IND:{ALP:6,GRN:3,LNP:3,ON:1.5,OTH:1},
     OTH:{ON:5,LNP:4,ALP:2.5,GRN:1.5,IND:2}
@@ -410,7 +411,7 @@ function tally(onTarget,frm,W,noise,shift){
   let c={ALP:0,LNP:0,ON:0,GRN:0,IND:0,OTH:0};
   for(const row of SEATS){
     let pr=primaries(row,onTarget,frm);
-    if(noise>0){let natl=gauss(0,noise*0.6);pr=pr.map((x,i)=>Math.max(0,x+gauss(0,noise)+(i===2?natl:0)));}
+    if(noise>0){let natl=gauss(0,3.0*noise);pr=pr.map((x,i)=>Math.max(0,x+gauss(0,MOE_SD[P[i]]*noise)+(i===2?natl:0)));let tot=pr.reduce((a,b)=>a+b,0);if(tot>0)pr=pr.map(x=>100*x/tot);}
     W.GRN.ALP=0.7*rr(seatRet(row,shift));   // composition-based Greens firewall, per seat
     let w=forcedWinner(row[0],pr); if(w===null)w=irv(pr,W);
     c[w]++;
@@ -510,20 +511,29 @@ function updateBattle(){
 // charts
 let trajChart,curveChart,distChart;
 function drawTraj(){
-  const labels=['May 25','Aug 25','Nov 25','Jan 26','Feb 26','Mar 26','Apr 26','May 26','Jun 26'];
-  const agg=[6.4,9,13,19,22,23,24,26,28];
+  // Monthly means of every national poll on BludgerTrack 2028 (Poll Bludger), bucketed by fieldwork end-date.
+  // May 25 = 2025 election result. Series runs through mid-Jun 2026.
+  const labels=['May 25','Jun 25','Jul 25','Aug 25','Sep 25','Oct 25','Nov 25','Dec 25','Jan 26','Feb 26','Mar 26','Apr 26','May 26','Jun 26'];
+  const on  =[6.4, 7.4, 8.2, 9.0,11.2,12.7,16.2,16.9,21.4,24.9,24.7,24.4,25.7,29.3];
+  const alp =[34.6,37.0,35.9,35.7,34.8,35.0,34.3,32.9,30.8,30.7,29.9,29.8,29.0,27.3];
+  const coal=[31.8,30.9,29.3,29.7,28.0,27.6,25.7,25.8,24.0,21.6,21.9,22.5,22.8,18.9];
+  const grn =[12.2,11.6,12.5,12.0,11.7,11.6,11.7,12.2,12.0,12.1,12.4,12.7,12.1,13.1];
+  const dot=labels.map(()=>null); dot[dot.length-1]=31;   // Newspoll, fieldwork 1–4 Jun 2026
   trajChart=new Chart($('traj'),{type:'line',data:{labels,datasets:[
-    {label:'ON primary (aggregate)',data:agg,borderColor:COL.ON,backgroundColor:'rgba(245,126,32,.12)',fill:true,tension:.35,pointRadius:3},
-    {label:'Newspoll 8 Jun (31%)',data:[null,null,null,null,null,null,null,null,31],borderColor:'#ffc857',pointBackgroundColor:'#ffc857',pointRadius:6,showLine:false},
-    {label:'Govt threshold zone (~34%)',data:labels.map(()=>34),borderColor:'rgba(255,255,255,.3)',borderDash:[5,5],pointRadius:0,fill:false}
+    {label:'One Nation',data:on,borderColor:COL.ON,backgroundColor:'rgba(245,126,32,.12)',fill:true,tension:.35,pointRadius:2,borderWidth:2.5},
+    {label:'Labor',data:alp,borderColor:COL.ALP,tension:.35,pointRadius:0,borderWidth:1.6},
+    {label:'Coalition',data:coal,borderColor:COL.LNP,tension:.35,pointRadius:0,borderWidth:1.6},
+    {label:'Greens',data:grn,borderColor:COL.GRN,tension:.35,pointRadius:0,borderWidth:1.6},
+    {label:'Newspoll 1–4 Jun (31%)',data:dot,borderColor:'#ffc857',pointBackgroundColor:'#ffc857',pointRadius:6,showLine:false},
+    {label:'Govt threshold (~34%)',data:labels.map(()=>34),borderColor:'rgba(255,255,255,.3)',borderDash:[5,5],pointRadius:0,fill:false}
   ]},options:{plugins:{legend:{labels:{color:'#9aa7b8',boxWidth:12,font:{size:10}}}},scales:{y:{min:0,max:40,ticks:{color:'#9aa7b8',callback:v=>v+'%'},grid:{color:'#2a323e'}},x:{ticks:{color:'#9aa7b8',font:{size:10}},grid:{color:'#1e2530'}}}}});
 }
 function drawMemb(){
-  new Chart($('memb'),{type:'bar',data:{labels:['One Nation','Labor','Liberal','Greens'],datasets:[{label:'Paid members (000s)',data:[65,55,50,15],backgroundColor:[COL.ON,COL.ALP,COL.LNP,COL.GRN]}]},options:{plugins:{legend:{display:false},title:{display:true,text:'Paid party membership, 000s (ON/ALP/LIB: Jun 2026 · Greens: 2020)',color:'#9aa7b8',font:{size:11}}},scales:{y:{ticks:{color:'#9aa7b8'},grid:{color:'#2a323e'}},x:{ticks:{color:'#9aa7b8'},grid:{display:false}}}}});
+  new Chart($('memb'),{type:'bar',data:{labels:['One Nation','Labor','Liberal','Greens'],datasets:[{label:'Paid members (000s)',data:[65,55,50,15],backgroundColor:[COL.ON,COL.ALP,COL.LNP,COL.GRN]}]},options:{plugins:{legend:{display:false},title:{display:true,text:'Paid party membership, 000s (ON/ALP/LIB: Jun 2026 · Greens: ~15k, flat since 2020)',color:'#9aa7b8',font:{size:11}}},scales:{y:{ticks:{color:'#9aa7b8'},grid:{color:'#2a323e'}},x:{ticks:{color:'#9aa7b8'},grid:{display:false}}}}});
 }
 function drawCurve(){
   const W=weights(0.70); const xs=[],on=[],alp=[];
-  for(let t=24;t<=42;t+=1){const c=tally(t,0.70,W,0,0.085);xs.push(t+'%');on.push(c.ON);alp.push(c.ALP);}
+  for(let t=24;t<=42;t+=1){const c=tally(t,0.64,W,0,0.085);xs.push(t+'%');on.push(c.ON);alp.push(c.ALP);}  // frm 0.64 = observed net flow (Coalition ~64% of majors' loss)
   curveChart=new Chart($('curve'),{type:'line',data:{labels:xs,datasets:[
     {label:'One Nation seats',data:on,borderColor:COL.ON,tension:.2,pointRadius:0,borderWidth:2},
     {label:'Labor seats',data:alp,borderColor:COL.ALP,tension:.2,pointRadius:0,borderWidth:2},
